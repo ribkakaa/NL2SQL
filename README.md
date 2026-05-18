@@ -1,18 +1,19 @@
 # NL2SQL ChatBot 🤖
 
-## 📑 Deskripisi NL2SQL
-NL2SQL ChatBot adalah Asisten Belanja Virtual berbasis bahasa **Python, Ollama, Qwen 2.5, dan NL2SQL**. 
+## 📑 Deskripsi Projek
+NL2SQL ChatBot adalah Asisten Belanja Virtual berbasis bahasa **Python, Ollama, Qwen 2.5, MySQL**. 
 
-Dengan sistem ini, pengguna dapat melihat ketersediaan produk, perbandingan harga, atau riwayat transaksi menggunakan bahasa sehari-hari. ChatBot akan menerjemahkan teks tersebut dengan bahasa SQL, mengeksekusi ke data base toko, dan mengembaklikan jawaban yang mudah dipahami oleh pengguna.
+Dengan sistem ini, pengguna dapat melihat ketersediaan produk, perbandingan harga, atau riwayat transaksi menggunakan bahasa sehari-hari. ChatBot akan menerjemahkan teks tersebut dengan bahasa **SQL**, mengeksekusi ke database toko, dan mengembalikan jawaban yang mudah dipahami oleh pengguna.
 
-| No | Nama Komponen | Katergor/Istilah Teknis | Fungsi dalam proyek NL2SQL ChatBot |
+| No | Nama Komponen | Kategori/Istilah Teknis | Fungsi dalam proyek NL2SQL ChatBot |
 | --- | ------------- | ------------------------ | ----| 
-| 1. | Python 🐍 | Bahasa Pemograman (Programming Language) | Bahasa Utama yang digunakan dalam membuat kode program, mengatur logika aplikasi, menghubungkan data base, dan menjebatani AI dengan pengguna.
-| 2. | Ollama 🦙 | Alat Manajemen Model AI *(LLM Runner/Framwork)* | Alat atau Software yang berfungsi untuk mengunduh, menjalankan, dan mengelola Model Bahasa *(LLM)* secara lokal di komputer/server sendiri.
-| 3. | Qwen 2.5 🧠 | Model Besar Bahasa *(Large Langguage/LLM)* | Kecerdasab buatan AI buatan Alibaba yang bertugas memahami bahasa manusia *(Natural Langguage)* dan menterjemahkannya menjadi kode perintah SQL.
-| 4. | NL2SQL 🐬 | Sistem Manajemen DataBase | Tempat penyimpanan data terstruktur (seperti data produk, harga, stok, dan transaksi) yang nantinya akan diakses menggunakan query SQL. |
+| 1. | **Python 🐍** | Bahasa Pemrograman (Programming Language) | Bahasa Utama yang digunakan dalam membuat kode program, mengatur logika aplikasi, menghubungkan database, dan menjembatani AI dengan pengguna. |
+| 2. | **Ollama 🦙** | Alat Manajemen Model AI *(LLM Runner/Framework)* | Alat atau Software yang berfungsi untuk mengunduh, menjalankan, dan mengelola Model Bahasa *(LLM)* secara lokal di komputer/server sendiri. |
+| 3. | **Qwen 2.5 🧠** | Model Bahasa Besar *(Large Language/LLM)* | Kecerdasan buatan AI buatan Alibaba yang bertugas memahami bahasa manusia *(Natural Langguage)* dan menerjemahkannya menjadi kode perintah SQL. |
+| 4. | **MySQL 🐬** | Sistem Manajemen Database *(RDBMS)* | Tempat penyimpanan data terstruktur (seperti data produk, harga, stok, dan transaksi) yang dikelola melalui XAMPP dan akan diakses menggunakan query SQL. |
+| 5. | **NL2SQL 🤖** | Metode/Fitur (Natural Language to SQL) | Pendekatan teknologi yang bertugas mengubah teks pertanyaan santai dari pengguna menjadi sintaks query SQL yang valid agar bisa dibaca oleh MySQL. |
 
-## 📂 Strukrur NL2SQL ChatBot
+## 📂 Struktur NL2SQL ChatBot
 ```
 │   app.py
 │   config.py
