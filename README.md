@@ -7,7 +7,7 @@ Dengan sistem ini, pengguna dapat melihat ketersediaan produk, perbandingan harg
 
 | No | Nama Komponen | Kategori/Istilah Teknis | Fungsi dalam proyek NL2SQL ChatBot |
 | --- | ------------- | ------------------------ | ----| 
-| 1. | **Stremlit🎨** | Antarmuka Pengguna (User Interface / Frontend) | Pustaka (Library) Python yang digunakan untuk membangun UI web chatbot, menyediakan kolom input obrolan, serta mengonversi DataFrame dari Pandas menjadi visualisasi tabel data yang rapi dan interaktif di layar pengguna. |
+| 1. | **Stremlit** | Antarmuka Pengguna (User Interface / Frontend) | Pustaka (Library) Python yang digunakan untuk membangun UI web chatbot, menyediakan kolom input obrolan, serta mengonversi DataFrame dari Pandas menjadi visualisasi tabel data yang rapi dan interaktif di layar pengguna. |
 | 2. | **Python🐍** | Bahasa Pemrograman (Programming Language) | Bahasa Utama yang digunakan dalam membuat kode program, mengatur logika aplikasi, menghubungkan database, dan menjembatani AI dengan pengguna. |
 | 3. | **Ollama🦙** | Alat Manajemen Model AI *(LLM Runner/Framework)* | Alat atau Software yang berfungsi untuk mengunduh, menjalankan, dan mengelola Model Bahasa *(LLM)* secara lokal di komputer/server sendiri. |
 | 4. | **Qwen 2.5🧠** | Model Bahasa Besar *(Large Language/LLM)* | Kecerdasan buatan AI buatan Alibaba yang bertugas memahami bahasa manusia *(Natural Langguage)* dan menerjemahkannya menjadi kode perintah SQL. |
@@ -49,14 +49,21 @@ Dengan sistem ini, pengguna dapat melihat ketersediaan produk, perbandingan harg
 ## 🏃‍➡️ Cara Menjalankan Aplikasi
 ### 1. Setup Ollama 🦙
 ```bash
-   ollama run qwen2.5:latest
-   ollama serve
+  bash
+  ollama run qwen2.5:latest
+  ollama serve
 ```
 ### 2. XAMPP 🐬
+```
+   DEFAULT_MYSQL_HOST = "localhost"
+   DEFAULT_MYSQL_PORT = 3306
+   DEFAULT_MYSQL_USER = "root"
+   DEFAULT_MYSQL_PASSWORD = ""
+   DEFAULT_MYSQL_DATABASE = "shopdb"
 
-    Run XAMPP Control Panel
-    Start Apache dan MySQL
-
+   DEFAULT_OLLAMA_URL = "localhost:12363"
+   DEFAULT_OLLAMA_MODEL = "qwen2.5:latest"****
+```
 ### 3. Setup Aplikasi 🚀
 ```
     pip install -r requirements.txt
