@@ -24,4 +24,5 @@ Projek ini bertujuan untuk mengatasi masalah yang ada di Administrasi. Administr
 | --- | ------- | -------- | ----------------- | ------------- | -----------| ---------- | ----------- | ---- | --------- | ----------- |
 | 1. | 3 | 809677201 | Fajar Rahayu Kurniawan, S. Ag. M. AL | L | 6 | 1 | S2 | 50 | 2017-01-24 | DPK |
 | 2. | 5 | 705954598 | Yanto Eko Lestari, S. H. M. H | L | 6 | 1 | S2 | 38 | 2022-03-15 | Kontrak |
-|3. | 33 | 203694788 | Zahra Ifran Nugroho, S. Si. M. Si | P | 5 | S2 | 43 | 2015-06-18 |
+|3. | 33 | 203694788 | Zahra Ifran Nugroho, S. Si. M. Si | P | 5 | 1 | S2 | 43 | 2015-06-18 | Tetap
+
